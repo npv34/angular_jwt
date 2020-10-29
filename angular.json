@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "demo-jwt"
+    }
+  },
+  "defaultProject": "demo-jwt",
+  "cli": {
+    "analytics": "2d39ddb7-d228-42dc-a104-05a0e43165a2"
+  }
 }
