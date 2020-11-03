@@ -8,13 +8,15 @@ import {ReactiveFormsModule} from "@angular/forms";
 import {HttpClientModule} from "@angular/common/http";
 import { AdminComponent } from './admin/admin.component';
 import { FriendComponent } from './groups/friend/friend.component';
+import { GroupListComponent } from './groups/group-list/group-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     AdminComponent,
-    FriendComponent
+    FriendComponent,
+    GroupListComponent
   ],
   imports: [
     BrowserModule,
