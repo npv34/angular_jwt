@@ -7,12 +7,14 @@ import {LoginComponent} from './login/login.component';
 import {ReactiveFormsModule} from "@angular/forms";
 import {HttpClientModule} from "@angular/common/http";
 import { AdminComponent } from './admin/admin.component';
+import { FriendComponent } from './groups/friend/friend.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    AdminComponent
+    AdminComponent,
+    FriendComponent
   ],
   imports: [
     BrowserModule,
