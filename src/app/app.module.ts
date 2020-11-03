@@ -7,6 +7,7 @@ import {LoginComponent} from './login/login.component';
 import {ReactiveFormsModule} from "@angular/forms";
 import {HttpClientModule} from "@angular/common/http";
 import { AdminComponent } from './admin/admin.component';
+import { FriendComponent } from './groups/friend/friend.component';
 import { GroupListComponent } from './groups/group-list/group-list.component';
 
 @NgModule({
@@ -14,6 +15,7 @@ import { GroupListComponent } from './groups/group-list/group-list.component';
     AppComponent,
     LoginComponent,
     AdminComponent,
+    FriendComponent,
     GroupListComponent
   ],
   imports: [
